@@ -1,80 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steve Babb</title>
 
     <!-- CSS -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <!-- <link rel="stylesheet" href="style.css" /> -->
-    <link
-      href="style.css"
-      type="text/css"
-      rel="stylesheet"
-      media="screen,projection"
-    />
-  </head>
-  <body>
-    <nav>
-        <div class="nav-wrapper container">
-          <a href="#!" class="brand-logo">Steve Babb</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+    <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+<!-- <body> -->
+<nav>
+    <div class="nav-wrapper container">
+        <a href="#!" class="brand-logo">Steve Babb</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
             <li><a href="#">Resume</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Connect</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Connect</a></li>
-      </ul>
-    
+        </ul>
+    </div>
+</nav>
 
-    <h1 class="container">Testing</h1>
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="#">Resume</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Connect</a></li>
+</ul>
+
+
+<body>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/goal_tracker.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal revealGoalTracker">
+                    <span class="card-title grey-text text-darken-4">Goal Tracker <i
+                            class="material-icons right">close</i></span>
+                    <p>
+                        Goal Tracker is an example of one of my most recent development effort. This was a team project
+                        of talented developer students working in collaboration via Git.
+                    </p>
+
+                    <p>
+                        This project was developed using Node.js, Express, Handlebars, Passport, MySql/Sequelize, Apex
+                        Charts NMP, JavaScript, and Materialize's CSS framework.
+                    </p>
+
+                    <p>
+                        It is currently deployed on Heroku and is in continuous development to add new and advanced
+                        features and functionality.
+                    </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://goal-tracker-kscc.herokuapp.com/'><button class="btn waves-effect waves-light blue-grey">Website</button></a>
+                        </div>
+
+                        <br><br>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/verus-goal-tracker'><button class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://goal-tracker-kscc.herokuapp.com/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/pair_site.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Pair<i
+                            class="material-icons right">close</i></span>
+                    <p>
+                        Pair is a dynamic and mobile-responsive web application that lets a user search for food and
+                        cocktail recipes from separate databases and curate the results in one place.
+                    </p>
+
+                    <p>
+                        This project was a collaborative effort between the listed contributors (see GitHub), using
+                        Agile software development techniques and version control.
+                    </p>
+
+                    <p>
+                        This project highlights the use of AJAX with multiple API calls, Javascript, and beautification
+                        using Materialize's CSS framework.
+                    </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://verusbabb.github.io/PAIR/'><button class="btn waves-effect waves-light blue-grey">Website</button></a>
+                        </div>
+
+                        <br><br>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/PAIR'><button class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://goal-tracker-kscc.herokuapp.com/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/weather_dashboard.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                            class="material-icons right">close</i></span>
+                            <p>
+                                OK, so maybe the world doesn't need another website to tell you about the weather.  But back when I developed this site, I was learning about API calls, and so the world has another weather app.
+                            </p>
+        
+                            <p>
+                                This project was my first app that linked my project code to something outside of my project folders, specifically two of Open Weather's APIs.  Looking back on it, this was a great learning experience.
+                            </p>
+        
+                            <p>
+                                You will also recognize my early work with JavaScript and Materialize CSS to bring it all together.
+                            </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://verusbabb.github.io/Weather_Dashboard/'><button class="btn waves-effect waves-light blue-grey">Website</button></a>
+                        </div>
+
+                        <br><br>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/Weather_Dashboard'><button class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://verusbabb.github.io/Weather_Dashboard/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/burger_app.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Burger Cravings<i
+                            class="material-icons right">close</i></span>
+                    <p>
+                        This is plain silly.  But a really effective way to track your burger cravings.  This was my first full stack app.
+                    </p>
+
+                    <p>
+                        This app is built using the MVC architecture, with use of JavaScript, Express, MySQL, and Handlebars.  Rather than rely on a CSS framework, I took a early crack at using all customer CSS. I've come a long way since then, but it is good baseline for showing how skills have evolved since these earlier learning days. 
+                    </p>
+
+                    <p>
+                        It is currently deployed on Heroku (and I may add other craving categories one day to make it even more useful).
+                    </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://verusbabb.github.io/PAIR/'><button class="btn waves-effect waves-light blue-grey">Website</button></a>
+                        </div>
+
+                        <br><br>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/PAIR'><button class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://verus-burger.herokuapp.com/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/pair_site.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Pair<i
+                            class="material-icons right">close</i></span>
+                    <p>
+                        Pair is a dynamic and mobile-responsive web application that lets a user search for food and
+                        cocktail recipes from separate databases and curate the results in one place.
+                    </p>
+
+                    <p>
+                        This project was a collaborative effort between the listed contributors (see GitHub), using
+                        Agile software development techniques and version control.
+                    </p>
+
+                    <p>
+                        This project highlights the use of AJAX with multiple API calls, Javascript, and beautification
+                        using Materialize's CSS framework.
+                    </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://verusbabb.github.io/PAIR/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                        </div>
+
+                        <br><br>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/PAIR'><button class="btn waves-effect waves-light blue-grey">On GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://goal-tracker-kscc.herokuapp.com/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col s12 m4">
+            <div class="card blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/weather_dashboard.png" />
+                </div>
+
+                <div class="card-content activator">
+                    <p>Hover over the image to reveal more information.</p>
+                </div>
+
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                            class="material-icons right">close</i></span>
+                            <p>
+                                OK, so maybe the world doesn't need another website to tell you about the weather.  But back when I developed this site, I was learning about API calls, and so the world has another weather app.
+                            </p>
+        
+                            <p>
+                                This project was my first app that linked my project code to something outside of my project folders, specifically two of Open Weather's APIs.  Looking back on it, this was a great learning experience.
+                            </p>
+        
+                            <p>
+                                You will also recognize my early work with JavaScript and Materialize CSS to bring it all together.
+                            </p>
+                    <div class="revealBtn">
+                        <div class="card-action">
+                            <a href='https://verusbabb.github.io/Weather_Dashboard/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                        </div>
+                        <div class="card-action">
+                            <a href='https://github.com/verusbabb/Weather_Dashboard'><button class="btn waves-effect waves-light blue-grey">On GitHub</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                    <div class="card-action cardBtn">
+                        <a href='https://verusbabb.github.io/Weather_Dashboard/'><button class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l8 s12">
-            <h5 class="white-text">Developer</h5>
-            <p class="grey-text text-lighten-4">Lawrence, Kansas</p>
-          </div>
-          <div class="col l4 s12">
-            <h5 id="connect" class="white-text">Connect with me</h5>
-            <ul>
-              <li>
-                <a class="white-text" href="https://github.com/verusbabb"
-                  >Steve Babb</a
-                >
-              </li>
-              <li>
-                <address>
-                  <a class = "contactInfo" href="mailto:steve@verusgroup.com">steve@verusgroup.com</a>
-                </address>
-              </li>
-              <li>
-                <a class = "contactInfo" href="tel:303-674-2950">303-674-2950</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      <!-- <div class="footer-copyright"></div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col l8 s12">
+                    <h5 class="white-text">Developer</h5>
+                    <p class="grey-text text-lighten-4">Lawrence, Kansas</p>
+                </div>
+                <div class="col l4 s12">
+                    <h5 id="connect" class="white-text">Connect with me</h5>
+                    <ul>
+                        <li>
+                            <a class="white-text" href="https://github.com/verusbabb">Steve Babb</a>
+                        </li>
+                        <li>
+                            <address>
+                                <a class="contactInfo" href="mailto:steve@verusgroup.com">steve@verusgroup.com</a>
+                            </address>
+                        </li>
+                        <li>
+                            <a class="contactInfo" href="tel:303-674-2950">303-674-2950</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="footer-copyright"></div> -->
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

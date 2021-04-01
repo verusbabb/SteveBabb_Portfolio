@@ -4,9 +4,32 @@ body {
 
 nav,
 .page-footer {
-  background-color: rgb(134, 134, 212);
+  background-color: rgb(75, 91, 160);
 }
 
 .contactInfo {
   color: white;
+}
+
+.btn {
+  width: 8rem;
+}
+
+.revealBtn {
+  /* display: flexbox; */
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+  /* flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+  /* align-content: flex-end; */
+  margin-top: 10%;
+
+}
+
+.cardBtn {
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
