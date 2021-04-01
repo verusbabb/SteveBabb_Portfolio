@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+}
+
+nav,
+.page-footer {
+  background-color: rgb(134, 134, 212);
+}
+
+.contactInfo {
+  color: white;
+}
