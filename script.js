@@ -12,3 +12,7 @@
         }
     );
 });
+
+// function myFunction() {
+//   document.getElementById("reveal").style.overflowY = "scroll";
+// }
