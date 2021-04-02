@@ -1,7 +1,20 @@
+#background {
+  background-color: rgb(180, 204, 203);
+}
 
 nav,
 .page-footer {
   background-color: rgb(75, 91, 160);
+}
+
+.circle {
+  margin-top: 5%;
+  height: 20%;
+  width: 15%;
+}
+
+.fa-github {
+  height: 10%;
 }
 
 .contactInfo {
@@ -17,12 +30,16 @@ nav,
   justify-content: center;
 }
 
+.revealBtn i {
+  height: 20px;
+}
+
 .card-reveal {
   background-color: gray;
 }
 
 .card-reveal p {
-  font-size: 0.77rem;
+  font-size: 0.70rem;
 }
 
 .cardBtn {

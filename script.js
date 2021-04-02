@@ -13,6 +13,6 @@
     );
 });
 
-// function myFunction() {
-//   document.getElementById("reveal").style.overflowY = "scroll";
-// }
+$(document).ready(function(){
+  $('.modal').modal();
+});

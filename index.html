@@ -10,6 +10,8 @@
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <script src="https://use.fontawesome.com/7380cfe222.js"></script>
+
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
@@ -19,7 +21,8 @@
         <a href="#!" class="brand-logo">Steve Babb</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="https://drive.google.com/file/d/1utjrBe_jZi0fyy7Ma_EKpqwfiFWTYG1B/view?usp=sharing" target="_blank">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1utjrBe_jZi0fyy7Ma_EKpqwfiFWTYG1B/view?usp=sharing"
+                    target="_blank">Resume</a></li>
             <li><a href="#connect">Connect</a></li>
         </ul>
     </div>
@@ -34,142 +37,165 @@
 
 <body>
 
-    <div class="row container">
+    <div id="background">
+        <div class="row container">
+            <!-- Modal Trigger -->
+            <img class="circle responsive-img" id="steve" src="/images/steve.jpeg">
+            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Read Bio</a>
 
-        <!-- Goal Tracker -->
-        <div class="col s12 m4">
-            <div class="card medium blue-grey lighten-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="images/goal_tracker.png" />
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                    <h4>Modal Header</h4>
+                    <p>A bunch of text</p>
                 </div>
-
-                <div class="card-content activator">
-                    <p>Hover for  more information.</p>
-                </div>
-
-                <div id = "reveal" class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Goal Tracker <i
-                            class="material-icons right">close</i></span>
-                    <p>
-                        Goal Tracker is an example of one of my most recent development effort. This was a team project
-                        of talented developer students working in collaboration via Git.
-                    </p>
-
-                    <p>
-                        This project was developed using Node.js, Express, Handlebars, Passport, MySql/Sequelize, Apex
-                        Charts NMP, JavaScript, and Materialize's CSS framework.
-                    </p>
-
-                    <p>
-                        It is currently deployed on Heroku and is in continuous development to add new and advanced
-                        features and functionality.
-                    </p>
-                    <div class="card-action revealBtn">
-                        <!-- <a href='https://goal-tracker-kscc.herokuapp.com/'><button
-                                class="btn waves-effect waves-light blue-grey">Website</button></a> -->
-
-                        <a href='https://github.com/verusbabb/verus-goal-tracker'><button
-                                class="btn waves-effect waves-light blue-grey">GitHub</button></a>
-                    </div>
-                </div>
-
-                <div class="card-action cardBtn">
-                    <a href='https://goal-tracker-kscc.herokuapp.com/'><button
-                            class="btn waves-effect waves-light blue-grey">See it live</button></a>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- Pair -->
-        <div class="col s12 m4">
-            <div class="card medium blue-grey lighten-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="images/pair_site.png" />
-                </div>
-
-                <div class="card-content activator">
-                    <p>Hover for  more information.</p>
-                </div>
-
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Pair<i
-                            class="material-icons right">close</i></span>
-                    <p>
-                        Pair is a dynamic and mobile-responsive web application that lets a user search for food and
-                        cocktail recipes from separate databases and curate the results in one place.
-                    </p>
-
-                    <p>
-                        This project was a collaborative effort between the listed contributors (see GitHub), using
-                        Agile software development techniques and version control.
-                    </p>
-
-                    <p>
-                        This project highlights the use of AJAX with multiple API calls, Javascript, and beautification
-                        using Materialize's CSS framework.
-                    </p>
-                    <div class="card-action revealBtn">
-                        <!-- <a href='https://verusbabb.github.io/PAIR/'><button
-                                class="btn waves-effect waves-light blue-grey">Website</button></a> -->
-
-                        <a href='https://github.com/verusbabb/PAIR'><button
-                                class="btn waves-effect waves-light blue-grey">GitHub</button></a>
-                    </div>
-                </div>
-
-                <div class="card-action cardBtn">
-                    <a href='https://verusbabb.github.io/PAIR/'><button
-                            class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
                 </div>
             </div>
         </div>
 
-        <!-- Weather Dashboard -->
-        <div class="col s12 m4">
-            <div class="card medium blue-grey lighten-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src="images/weather_dashboard.png" />
+        <div class="row container">
+
+            <!-- Goal Tracker -->
+            <div class="col s12 m4">
+                <div class="card medium blue-grey lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/goal_tracker.png" />
+                    </div>
+
+                    <div class="card-content activator">
+                        <p>Hover for more information.</p>
+                    </div>
+
+                    <div id="reveal" class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Goal Tracker <i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            Goal Tracker is an example of one of my most recent development effort. This was a team
+                            project
+                            of talented developer students working in collaboration via Git.
+                        </p>
+
+                        <p>
+                            This project was developed using Node.js, Express, Handlebars, Passport, MySql/Sequelize,
+                            Apex
+                            Charts NMP, JavaScript, and Materialize's CSS framework.
+                        </p>
+
+                        <p>
+                            It is currently deployed on Heroku and is in continuous development to add new and advanced
+                            features and functionality.
+                        </p>
+                        <div class="card-action revealBtn">
+
+                            <a href='https://github.com/verusbabb/verus-goal-tracker'><button
+                                    class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card-action cardBtn">
+                        <a href='https://goal-tracker-kscc.herokuapp.com/'><button
+                                class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
+
                 </div>
+            </div>
 
-                <div class="card-content activator">
-                    <p>Hover for  more information.</p>
-                </div>
+            <!-- Pair -->
+            <div class="col s12 m4">
+                <div class="card medium blue-grey lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/pair_site.png" />
+                    </div>
 
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Weather Dashboard<i
-                            class="material-icons right">close</i></span>
-                    <p>
-                        OK, so maybe the world doesn't need another website to tell you about the weather. But back when
-                        I developed this site, I was learning about API calls, and so the world has another weather app.
-                    </p>
+                    <div class="card-content activator">
+                        <p>Hover for more information.</p>
+                    </div>
 
-                    <p>
-                        This project was my first app that linked my project code to something outside of my project
-                        folders, specifically two of Open Weather's APIs. Looking back on it, this was a great learning
-                        experience.
-                    </p>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pair<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            Pair is a dynamic and mobile-responsive web application that lets a user search for food and
+                            cocktail recipes from separate databases and curate the results in one place.
+                        </p>
 
-                    <p>
-                        You will also recognize my early work with JavaScript and Materialize CSS to bring it all
-                        together.
-                    </p>
-                    <div class="card-action revealBtn">
-                        <!-- <a href='https://verusbabb.github.io/Weather_Dashboard/'><button
+                        <p>
+                            This project was a collaborative effort between the listed contributors (see GitHub), using
+                            Agile software development techniques and version control.
+                        </p>
+
+                        <p>
+                            This project highlights the use of AJAX with multiple API calls, Javascript, and
+                            beautification
+                            using Materialize's CSS framework.
+                        </p>
+                        <div class="card-action revealBtn">
+                            <!-- <a href='https://verusbabb.github.io/PAIR/'><button
                                 class="btn waves-effect waves-light blue-grey">Website</button></a> -->
 
-                        <a href='https://github.com/verusbabb/Weather_Dashboard'><button
-                                class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                            <a href='https://github.com/verusbabb/PAIR'><button
+                                    class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card-action cardBtn">
+                        <a href='https://verusbabb.github.io/PAIR/'><button
+                                class="btn waves-effect waves-light blue-grey">See it live</button></a>
                     </div>
                 </div>
+            </div>
 
-                <div class="card-action cardBtn">
-                    <a href='https://verusbabb.github.io/Weather_Dashboard/'><button
-                            class="btn waves-effect waves-light blue-grey">See it live</button></a>
+            <!-- Weather Dashboard -->
+            <div class="col s12 m4">
+                <div class="card medium blue-grey lighten-4">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="images/weather_dashboard.png" />
+                    </div>
+
+                    <div class="card-content activator">
+                        <p>Hover for more information.</p>
+                    </div>
+
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                                class="material-icons right">close</i></span>
+                        <p>
+                            OK, so maybe the world doesn't need another website to tell you about the weather. But back
+                            when
+                            I developed this site, I was learning about API calls, and so the world has another weather
+                            app.
+                        </p>
+
+                        <p>
+                            This project was my first app that linked my project code to something outside of my project
+                            folders, specifically two of Open Weather's APIs. Looking back on it, this was a great
+                            learning
+                            experience.
+                        </p>
+
+                        <p>
+                            You will also recognize my early work with JavaScript and Materialize CSS to bring it all
+                            together.
+                        </p>
+                        <div class="card-action revealBtn">
+                            <!-- <a href='https://verusbabb.github.io/Weather_Dashboard/'><button
+                                class="btn waves-effect waves-light blue-grey">Website</button></a> -->
+
+                            <a href='https://github.com/verusbabb/Weather_Dashboard'><button
+                                    class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card-action cardBtn">
+                        <a href='https://verusbabb.github.io/Weather_Dashboard/'><button
+                                class="btn waves-effect waves-light blue-grey">See it live</button></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <div class="row container">
 
@@ -181,7 +207,7 @@
                 </div>
 
                 <div class="card-content activator">
-                    <p>Hover for  more information.</p>
+                    <p>Hover for more information.</p>
                 </div>
 
                 <div class="card-reveal">
@@ -228,7 +254,7 @@
                 </div>
 
                 <div class="card-content activator">
-                    <p>Hover for  more information.</p>
+                    <p>Hover for more information.</p>
                 </div>
 
                 <div class="card-reveal">
@@ -261,46 +287,48 @@
             </div>
         </div>
 
-    <!-- Employee Tracker -->
-    <div class="col s12 m4">
-        <div class="card medium blue-grey lighten-4">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="images/employee_tracker.png" />
-            </div>
+        <!-- Employee Tracker -->
+        <div class="col s12 m4">
+            <div class="card medium blue-grey lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/employee_tracker.png" />
+                </div>
 
-            <div class="card-content activator">
-                <p>Hover for  more information.</p>
-            </div>
+                <div class="card-content activator">
+                    <p>Hover for more information.</p>
+                </div>
 
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">HR Employee Database<i
-                        class="material-icons right">close</i></span>
-                <p>
-                    OK, so maybe the world doesn't need another website to tell you about the weather. But back when I
-                    developed this site, I was learning about API calls, and so the world has another weather app.
-                </p>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">HR Employee Database<i
+                            class="material-icons right">close</i></span>
+                    <p>
+                        OK, so maybe the world doesn't need another website to tell you about the weather. But back when
+                        I
+                        developed this site, I was learning about API calls, and so the world has another weather app.
+                    </p>
 
-                <p>
-                    This project was my first app that linked my project code to something outside of my project
-                    folders, specifically two of Open Weather's APIs. Looking back on it, this was a great learning
-                    experience.
-                </p>
+                    <p>
+                        This project was my first app that linked my project code to something outside of my project
+                        folders, specifically two of Open Weather's APIs. Looking back on it, this was a great learning
+                        experience.
+                    </p>
 
-                <p>
-                    You will also recognize my early work with JavaScript and Materialize CSS to bring it all together.
-                </p>
-                <div class="card-action revealBtn">
+                    <p>
+                        You will also recognize my early work with JavaScript and Materialize CSS to bring it all
+                        together.
+                    </p>
+                    <div class="card-action revealBtn">
+                        <a href='https://github.com/verusbabb/employee_tracker'><button
+                                class="btn waves-effect waves-light blue-grey">GitHub</button></a>
+                    </div>
+                </div>
+
+                <div class="card-action cardBtn">
                     <a href='https://github.com/verusbabb/employee_tracker'><button
                             class="btn waves-effect waves-light blue-grey">GitHub</button></a>
                 </div>
             </div>
-
-            <div class="card-action cardBtn">
-                <a href='https://github.com/verusbabb/employee_tracker'><button
-                        class="btn waves-effect waves-light blue-grey">GitHub</button></a>
-            </div>
         </div>
-    </div>
     </div>
 
     <!-- Footer -->
