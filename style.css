@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+#modal1 {
+  border-radius: 5%;
+}
+
 nav,
 .page-footer {
   background-color: rgb(75, 91, 160);
