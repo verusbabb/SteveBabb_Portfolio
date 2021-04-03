@@ -19,6 +19,11 @@ nav,
   border-radius: 5%;
 }
 
+.card,
+.card-image {
+  border-radius: 5%;
+}
+
 .fa-github {
   height: 10%;
 }
@@ -45,7 +50,7 @@ nav,
 }
 
 .card-reveal p {
-  font-size: 0.70rem;
+  font-size: 0.7rem;
 }
 
 .cardBtn {
@@ -61,14 +66,14 @@ nav,
 @media only screen and (max-width: 600px) {
   .btn {
     width: 6rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .btn {
     width: 6rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
   .card-reveal p {
     font-size: 0.75rem;
@@ -98,6 +103,6 @@ nav,
 @media only screen and (max-width: 600px) {
   .btn {
     width: 6rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 }
