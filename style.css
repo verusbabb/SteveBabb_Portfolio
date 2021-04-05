@@ -115,6 +115,11 @@ nav {
   font-weight: 400;
 }
 
+#modal1 h4{
+  color: black;
+  font-weight: 300;
+}
+
 @media only screen and (max-width: 600px) {
   .card-reveal p {
     font-size: 0.75rem;
