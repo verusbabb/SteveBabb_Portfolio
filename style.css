@@ -97,9 +97,14 @@ nav {
   
 }
 
+.modal {
+  padding: 80px !important;
+}
+
 #modal1 h2{
   margin-top: 1.5rem;
-  color: darkgray;
+  color: black;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 600px) {
