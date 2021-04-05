@@ -1,23 +1,48 @@
 #background {
-  background-color: rgb(180, 204, 203);
+  background-color: lightgray;
+  size: cover;
 }
 
-.bio {
-  display: flex;
-  flex-direction: column;
+.modalBtn {
+  justify-content: right;
 }
 
 #modal1 {
   border-radius: 5%;
 }
 
-nav,
+.bio {
+  background-color: gray;
+  size: cover;
+  margin-top: 3%;
+  border-radius: 12px;
+}
+
+.bio p {
+  margin-top: 7%;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color:gray;
+  size: cover;
+}
+
+.card-content h6 {
+  text-align: center;
+  font-weight: bold;
+}
+
 .page-footer {
-  background-color: rgb(75, 91, 160);
+  background-color: gray;
+  /* size: cover !important; */
+  
 }
 
 .responsive-img {
-  margin-top: 5%;
+  float: left;
+  margin: 2%;
   height: 25%;
   width: 20%;
   border-radius: 5%;
@@ -33,7 +58,7 @@ nav,
 }
 
 .contactInfo {
-  color: white;
+  color: black;
 }
 
 .btn {
