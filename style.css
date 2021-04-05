@@ -3,12 +3,12 @@
   size: cover;
 }
 
-.modalBtn {
-  justify-content: right;
+.btn {
+  border-radius: 10px;
 }
 
 #modal1 {
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .bio {
@@ -19,7 +19,7 @@
 }
 
 .bio p {
-  margin-top: 7%;
+  margin-top: 4%;
   color: white;
   font-size: 1.5rem;
 }
@@ -50,11 +50,7 @@ nav {
 
 .card,
 .card-image {
-  border-radius: 5%;
-}
-
-.fa-github {
-  height: 10%;
+  border-radius: 5% 5% 0% 0%;
 }
 
 .contactInfo {
@@ -70,10 +66,6 @@ nav {
   justify-content: center;
 }
 
-.revealBtn i {
-  height: 20px;
-}
-
 .card-reveal {
   background-color: gray;
 }
@@ -82,7 +74,7 @@ nav {
   font-size: 0.7rem;
 }
 
-.cardBtn {
+.cardBtn a {
   display: flex;
   justify-content: center;
   width: auto;
@@ -93,45 +85,29 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
-  .btn {
-    width: 6rem;
-    font-size: 0.5rem;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .btn {
-    width: 6rem;
-    font-size: 0.5rem;
-  }
-  .card-reveal p {
-    font-size: 0.75rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .revealBtn a {
-    display: flex;
-    align-items: baseline;
-  }
   .card-reveal p {
     font-size: 0.75rem;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .revealBtn a {
-    display: flex;
-    align-items: baseline;
-  }
   .card-reveal p {
     font-size: 0.6rem;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .btn {
-    width: 6rem;
-    font-size: 0.5rem;
+  .bio p {
+    margin-top: 4%;
+    color: white;
+    font-size: 1.4rem;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    justify-content: center;
+  }
+}
+
+
