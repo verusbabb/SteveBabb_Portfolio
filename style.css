@@ -90,6 +90,12 @@ nav {
   text-align: center;
 }
 
+.lnr {
+  position: relative;
+  font-size: 42px;
+  color: #04b4e0;
+}
+
 @media only screen and (max-width: 600px) {
   .card-reveal p {
     font-size: 0.75rem;
