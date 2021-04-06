@@ -141,12 +141,10 @@ nav {
 }
 
 @media only screen and (max-width: 600px) {
-  .btn {
-    justify-content: center;
-  }
+  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .modal {
     padding-top: 10px !important;
     padding-left: 5px !important;
@@ -154,6 +152,29 @@ nav {
     padding-bottom: 5px !important;
   }
 }
+@media only screen and (max-width: 900px) {
+  .modal {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .modal {
+    padding-top: 10px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  #modal1 h2{
+    font-size: 36px;
+  }
+  .btn {
+    justify-content: center;
+  }
+}
+
 
 /* --- Skills --- */
 /* Skills Second Style */
