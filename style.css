@@ -4,6 +4,26 @@
   size: cover;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-left: 0 !important;
+  margin-right: 0 !important;
+  right: 0 !important;
+  left: 0 !important; */
+}
+
+.social a {
+  font-size: 36px;
+}
+
 .btn {
   border-radius: 10px;
   width: 8rem;
