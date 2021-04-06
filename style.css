@@ -45,6 +45,10 @@ nav {
   size: cover;
 }
 
+nav li a {
+  font-size: 18px;
+}
+
 .card-content h6 {
   text-align: center;
   font-weight: bold;
