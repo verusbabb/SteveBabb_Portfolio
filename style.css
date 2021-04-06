@@ -1,10 +1,15 @@
 #background {
-  background-color: lightgray;
+  background-color: white;
   size: cover;
 }
 
 .btn {
   border-radius: 10px;
+  width: 8rem;
+}
+
+.resumeBtn a{
+  color: white !important;
 }
 
 .modalBtn a {
@@ -23,7 +28,7 @@
 }
 
 .bio {
-  background-color: gray;
+  background-color: rgb(66, 84, 120);
   size: cover;
   margin-top: 3%;
   border-radius: 12px;
@@ -36,7 +41,7 @@
 }
 
 nav {
-  background-color:gray;
+  background-color:rgb(66, 84, 120);
   size: cover;
 }
 
@@ -46,8 +51,7 @@ nav {
 }
 
 .page-footer {
-  background-color: gray;
-  /* size: cover !important; */
+  background-color: rgb(66, 84, 120);
   
 }
 
@@ -68,9 +72,9 @@ nav {
   color:white;
 }
 
-.btn {
+/* .btn {
   width: 8rem;
-}
+} */
 
 .revealBtn a {
   display: flex;
@@ -96,10 +100,8 @@ nav {
 }
 
 .lnr {
-  /* position: relative; */
   font-size: 42px;
-  color: #04b4e0;
-  
+  color: rgb(66, 133, 95);
 }
 
 .modal {
@@ -109,39 +111,24 @@ nav {
   padding-bottom: 80px !important;
 }
 
+h2 span {
+  color: rgb(66, 133, 95);
+}
+
+.keyWords {
+  color: rgb(66, 133, 95);
+  font-weight: 400;
+}
+
 #modal1 h2{
   margin-top: 1rem;
   color: black;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #modal1 h4{
   color: black;
-  font-weight: 300;
-}
-
-@media only screen and (max-width: 600px) {
-  .card-reveal p {
-    font-size: 0.75rem;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .card-reveal p {
-    font-size: 0.6rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .bio p {
-    margin-top: 4%;
-    color: white;
-    font-size: 1.4rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -151,6 +138,25 @@ nav {
     padding-right: 5px !important;
     padding-bottom: 5px !important;
   }
+  .card-reveal p {
+    font-size: 0.6rem;
+  }
+  #modal1 h2{
+    margin-top: 1rem;
+    color: black;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  
+  #modal1 h4{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .lnr {
+    font-size: 36px;
+    color: rgb(66, 133, 95);;
+  }
 }
 @media only screen and (max-width: 900px) {
   .modal {
@@ -158,6 +164,22 @@ nav {
     padding-left: 10px !important;
     padding-right: 10px !important;
     padding-bottom: 10px !important;
+  }
+  #modal1 h2{
+    margin-top: 1rem;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  #modal1 h4{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .lnr {
+    font-size: 24px;
+    color: rgb(66, 133, 95) !important;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -168,16 +190,38 @@ nav {
     padding-bottom: 5px !important;
   }
   #modal1 h2{
-    font-size: 36px;
+    margin-top: 1rem;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  #modal1 h4{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .lnr {
+    font-size: 24px;
+    color: rgb(66, 133, 95);
+  }
+  .skill.clearfix h4 {
+    font-size: 12px !important;
   }
   .btn {
     justify-content: center;
   }
+  .bio p {
+    margin-top: 4%;
+    color: white;
+    font-size: 1.4rem;
+  }
+  .card-reveal p {
+    font-size: 0.75rem;
+  }
 }
 
-
-/* --- Skills --- */
-/* Skills Second Style */
 .skills-info.skills-second-style {
   margin-bottom: 30px;
 }
@@ -194,7 +238,7 @@ nav {
   position: relative;
   display: inline-block;
   background-color: #fff;
-  border: 1px solid #04b4e0;
+  border: 1px solid rgb(66, 84, 120);
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -204,12 +248,6 @@ nav {
   height: 10px;
   margin-bottom: 8px;
   width: 100%;
-}
-
-.skills-second-style .skill-container:before {
-  content: "";
-  position: absolute;
-  background-color: #04b4e0;
 }
 
 .skills-second-style .skill-value {
@@ -222,7 +260,7 @@ nav {
 }
 
 .skills-second-style .skill-percentage {
-  background-color: #04b4e0;
+  background-color: rgb(66, 133, 95);
   border: 2px solid #fff;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -268,32 +306,54 @@ nav {
   width: 90%;
 }
 
-/* --- End of Skills Values --- */
-
-/* Animate skills on subpage load */
-.pt-page .skills-second-style .skill-percentage,
-.pt-page .skills-second-style .skill-value {
-  -webkit-transition: all 2s ease-in-out;
-  -moz-transition: all 2s ease-in-out;
-  -o-transition: all 2s ease-in-out;
-  -ms-transition: all 2s ease-in-out;
-  transition: all 2s ease-in-out;
-}
-.js
-  .subpages:not(.one-page-layout)
-  .pt-page:not(.pt-page-current)
-  .skills-second-style
-  .skill-percentage {
-  width: 0 !important;
+.timeline-second-style .timeline-item {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding-bottom: 15px;
 }
 
-.js
-  .subpages:not(.one-page-layout)
-  .pt-page:not(.pt-page-current)
-  .skills-second-style
-  .skill-value {
-  left: 26px !important;
+.timeline-second-style .right-part {
+  width: 70%;
+  display: table-cell;
+  padding-left: 25px;
+  padding-right: 15px;
+  vertical-align: top;
 }
-/* --- End of Skills --- */
+
+.timeline-second-style .right-part p,
+.timeline-second-style .right-part p > * {
+  font-size: 0.92em;
+}
+
+.timeline-second-style .divider {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  bottom: 0;
+  width: 1px;
+  background-color: #eee;
+}
+
+.timeline-second-style .item-title {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.timeline-second-style .item-period {
+  margin: 3px 0;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+.timeline-second-style .item-company {
+  display: block;
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45em;
+  color: rgb(66, 133, 95);
+}
 
 
