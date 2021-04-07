@@ -170,6 +170,14 @@ h2 span {
     font-size: 36px;
   }
   
+  .item-title {
+    font-size: 14px !important;
+  }
+
+  .skill h4 {
+    font-size: 12px !important;
+  }
+
   #modal1 h4{
     color: black;
     font-weight: 600;
@@ -198,6 +206,14 @@ h2 span {
     color: black;
     font-weight: 600;
     font-size: 14px;
+  }
+
+  .item-title {
+    font-size: 12px !important;
+  }
+
+  .skill h4 {
+    font-size: 12px !important;
   }
   .lnr {
     font-size: 24px;
